@@ -10,10 +10,10 @@ int main(){
         len++;
     }
 
-    for (i = len - 1, j = 0; i >= 0; i--, j++) {
+    for (i=len-1,j=0;i>=0;i--,j++) {
         rev[j] = str[i];
     }
-    rev[j] = '\0'; // Null-terminate the reversed string
+    rev[j] = '\0';
 
     printf("Reversed string: %s\n", rev);
 
