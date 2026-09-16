@@ -1,5 +1,5 @@
 number = int(input("Enter a number:"))
-number=abs(number)
+number = abs(number)
 sum_digits = 0
 print(f"The number is: {number}")
 while number>0:
