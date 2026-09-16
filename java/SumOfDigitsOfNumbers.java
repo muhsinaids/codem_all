@@ -15,6 +15,6 @@ public class SumOfDigitsOfNumbers{
             sum_digits = sum_digits + digit;
             number = Math.floorDiv(number, 10);
         }
-        System.out.println("The Sum of Digits is:" + sum_digits);
+        System.out.println("The Sum of Digits is:" +  sum_digits);
     }
 }
