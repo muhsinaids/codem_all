@@ -22,5 +22,6 @@ public class largestnumber {
         else{
             System.out.println("Largest number is: " + num3);
         }
+        sc.close();
     }
 }

@@ -15,5 +15,6 @@ public class reverse_string{
             reversed = string.charAt(i) + reversed;
         }
         System.out.println("Reversed string: " + reversed);
+        sc.close();
     }
 }

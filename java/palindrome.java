@@ -23,5 +23,6 @@ public class palindrome {
         else{
             System.out.println("The number is not a palindrome.");
         }
+        sc.close();
     }
 }

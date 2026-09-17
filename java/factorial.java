@@ -13,6 +13,7 @@ public class factorial{
         for(int i = 1; i <= number; i++){
             factorial *= i;
         }
-        System.out.println("Factorial of " + number + " is: " + factorial); 
+        System.out.println("Factorial of " + number + " is: " + factorial);
+        sc.close();
     }
 }
